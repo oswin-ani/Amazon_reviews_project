@@ -4,12 +4,6 @@
 
 Приложение с графическим интерфейсом для автоматического определения тональности текстовых отзывов (положительная/отрицательная) на английском языке. Включает визуализацию результатов в виде интерактивного ползунка, а также расширенную статистику: гистограммы ключевых слов и облака слов для каждого класса тональности.
 
-**Авторы:**  
-Свиридова Анна Анатольевна, Меньшикова Елизавета Григорьевна, Панченко Артем Максимович  
-Группа БИВ248, НИУ ВШЭ (Московский институт электроники и математики)  
-**Руководитель:** Ролич Алексей Юрьевич  
-**Год:** 2025
-
 ---
 
 ## Для пользователей
@@ -112,5 +106,6 @@ confidence, label = predict_sentiment("This product is amazing!", vectorizer, mo
 
 1. Датасет отзывов Amazon: [Kaggle](https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews)
 2. Документация scikit-learn: [TfidfVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html), [SGDClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html)
+
 
 ---
